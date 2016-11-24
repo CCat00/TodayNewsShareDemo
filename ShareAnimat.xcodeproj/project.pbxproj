@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68F281FE1DE6852D00B435BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F281FD1DE6852D00B435BC /* AppDelegate.swift */; };
+		68F282001DE6852D00B435BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F281FF1DE6852D00B435BC /* ViewController.swift */; };
+		68F282031DE6852D00B435BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F282011DE6852D00B435BC /* Main.storyboard */; };
+		68F282051DE6852D00B435BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F282041DE6852D00B435BC /* Assets.xcassets */; };
+		68F282081DE6852D00B435BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F282061DE6852D00B435BC /* LaunchScreen.storyboard */; };
+		68F282131DE6852D00B435BC /* ShareAnimatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F282121DE6852D00B435BC /* ShareAnimatTests.swift */; };
+		68F2821E1DE6852D00B435BC /* ShareAnimatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F2821D1DE6852D00B435BC /* ShareAnimatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68F2820F1DE6852D00B435BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68F281F21DE6852D00B435BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F281F91DE6852D00B435BC;
+			remoteInfo = ShareAnimat;
+		};
+		68F2821A1DE6852D00B435BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68F281F21DE6852D00B435BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F281F91DE6852D00B435BC;
+			remoteInfo = ShareAnimat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68F281FA1DE6852D00B435BC /* ShareAnimat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareAnimat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F281FD1DE6852D00B435BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68F281FF1DE6852D00B435BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68F282021DE6852D00B435BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68F282041DE6852D00B435BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68F282071DE6852D00B435BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68F282091DE6852D00B435BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F2820E1DE6852D00B435BC /* ShareAnimatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareAnimatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F282121DE6852D00B435BC /* ShareAnimatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAnimatTests.swift; sourceTree = "<group>"; };
+		68F282141DE6852D00B435BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F282191DE6852D00B435BC /* ShareAnimatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareAnimatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F2821D1DE6852D00B435BC /* ShareAnimatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAnimatUITests.swift; sourceTree = "<group>"; };
+		68F2821F1DE6852D00B435BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68F281F71DE6852D00B435BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F2820B1DE6852D00B435BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F282161DE6852D00B435BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68F281F11DE6852D00B435BC = {
+			isa = PBXGroup;
+			children = (
+				68F281FC1DE6852D00B435BC /* ShareAnimat */,
+				68F282111DE6852D00B435BC /* ShareAnimatTests */,
+				68F2821C1DE6852D00B435BC /* ShareAnimatUITests */,
+				68F281FB1DE6852D00B435BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68F281FB1DE6852D00B435BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68F281FA1DE6852D00B435BC /* ShareAnimat.app */,
+				68F2820E1DE6852D00B435BC /* ShareAnimatTests.xctest */,
+				68F282191DE6852D00B435BC /* ShareAnimatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68F281FC1DE6852D00B435BC /* ShareAnimat */ = {
+			isa = PBXGroup;
+			children = (
+				68F281FD1DE6852D00B435BC /* AppDelegate.swift */,
+				68F281FF1DE6852D00B435BC /* ViewController.swift */,
+				68F282011DE6852D00B435BC /* Main.storyboard */,
+				68F282041DE6852D00B435BC /* Assets.xcassets */,
+				68F282061DE6852D00B435BC /* LaunchScreen.storyboard */,
+				68F282091DE6852D00B435BC /* Info.plist */,
+			);
+			path = ShareAnimat;
+			sourceTree = "<group>";
+		};
+		68F282111DE6852D00B435BC /* ShareAnimatTests */ = {
+			isa = PBXGroup;
+			children = (
+				68F282121DE6852D00B435BC /* ShareAnimatTests.swift */,
+				68F282141DE6852D00B435BC /* Info.plist */,
+			);
+			path = ShareAnimatTests;
+			sourceTree = "<group>";
+		};
+		68F2821C1DE6852D00B435BC /* ShareAnimatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68F2821D1DE6852D00B435BC /* ShareAnimatUITests.swift */,
+				68F2821F1DE6852D00B435BC /* Info.plist */,
+			);
+			path = ShareAnimatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68F281F91DE6852D00B435BC /* ShareAnimat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F282221DE6852D00B435BC /* Build configuration list for PBXNativeTarget "ShareAnimat" */;
+			buildPhases = (
+				68F281F61DE6852D00B435BC /* Sources */,
+				68F281F71DE6852D00B435BC /* Frameworks */,
+				68F281F81DE6852D00B435BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareAnimat;
+			productName = ShareAnimat;
+			productReference = 68F281FA1DE6852D00B435BC /* ShareAnimat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68F2820D1DE6852D00B435BC /* ShareAnimatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F282251DE6852D00B435BC /* Build configuration list for PBXNativeTarget "ShareAnimatTests" */;
+			buildPhases = (
+				68F2820A1DE6852D00B435BC /* Sources */,
+				68F2820B1DE6852D00B435BC /* Frameworks */,
+				68F2820C1DE6852D00B435BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68F282101DE6852D00B435BC /* PBXTargetDependency */,
+			);
+			name = ShareAnimatTests;
+			productName = ShareAnimatTests;
+			productReference = 68F2820E1DE6852D00B435BC /* ShareAnimatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68F282181DE6852D00B435BC /* ShareAnimatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F282281DE6852D00B435BC /* Build configuration list for PBXNativeTarget "ShareAnimatUITests" */;
+			buildPhases = (
+				68F282151DE6852D00B435BC /* Sources */,
+				68F282161DE6852D00B435BC /* Frameworks */,
+				68F282171DE6852D00B435BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68F2821B1DE6852D00B435BC /* PBXTargetDependency */,
+			);
+			name = ShareAnimatUITests;
+			productName = ShareAnimatUITests;
+			productReference = 68F282191DE6852D00B435BC /* ShareAnimatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68F281F21DE6852D00B435BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Wei Han";
+				TargetAttributes = {
+					68F281F91DE6852D00B435BC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 28J88G3NGL;
+						ProvisioningStyle = Automatic;
+					};
+					68F2820D1DE6852D00B435BC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 28J88G3NGL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68F281F91DE6852D00B435BC;
+					};
+					68F282181DE6852D00B435BC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 28J88G3NGL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68F281F91DE6852D00B435BC;
+					};
+				};
+			};
+			buildConfigurationList = 68F281F51DE6852D00B435BC /* Build configuration list for PBXProject "ShareAnimat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68F281F11DE6852D00B435BC;
+			productRefGroup = 68F281FB1DE6852D00B435BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F281F91DE6852D00B435BC /* ShareAnimat */,
+				68F2820D1DE6852D00B435BC /* ShareAnimatTests */,
+				68F282181DE6852D00B435BC /* ShareAnimatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68F281F81DE6852D00B435BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F282081DE6852D00B435BC /* LaunchScreen.storyboard in Resources */,
+				68F282051DE6852D00B435BC /* Assets.xcassets in Resources */,
+				68F282031DE6852D00B435BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F2820C1DE6852D00B435BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F282171DE6852D00B435BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68F281F61DE6852D00B435BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F282001DE6852D00B435BC /* ViewController.swift in Sources */,
+				68F281FE1DE6852D00B435BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F2820A1DE6852D00B435BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F282131DE6852D00B435BC /* ShareAnimatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F282151DE6852D00B435BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F2821E1DE6852D00B435BC /* ShareAnimatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68F282101DE6852D00B435BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68F281F91DE6852D00B435BC /* ShareAnimat */;
+			targetProxy = 68F2820F1DE6852D00B435BC /* PBXContainerItemProxy */;
+		};
+		68F2821B1DE6852D00B435BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68F281F91DE6852D00B435BC /* ShareAnimat */;
+			targetProxy = 68F2821A1DE6852D00B435BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68F282011DE6852D00B435BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68F282021DE6852D00B435BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68F282061DE6852D00B435BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68F282071DE6852D00B435BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68F282201DE6852D00B435BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68F282211DE6852D00B435BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68F282231DE6852D00B435BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28J88G3NGL;
+				INFOPLIST_FILE = ShareAnimat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShouYueTechnology.ShareAnimat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		68F282241DE6852D00B435BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28J88G3NGL;
+				INFOPLIST_FILE = ShareAnimat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShouYueTechnology.ShareAnimat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		68F282261DE6852D00B435BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 28J88G3NGL;
+				INFOPLIST_FILE = ShareAnimatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShouYueTechnology.ShareAnimatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareAnimat.app/ShareAnimat";
+			};
+			name = Debug;
+		};
+		68F282271DE6852D00B435BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 28J88G3NGL;
+				INFOPLIST_FILE = ShareAnimatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShouYueTechnology.ShareAnimatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareAnimat.app/ShareAnimat";
+			};
+			name = Release;
+		};
+		68F282291DE6852D00B435BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 28J88G3NGL;
+				INFOPLIST_FILE = ShareAnimatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShouYueTechnology.ShareAnimatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShareAnimat;
+			};
+			name = Debug;
+		};
+		68F2822A1DE6852D00B435BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 28J88G3NGL;
+				INFOPLIST_FILE = ShareAnimatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShouYueTechnology.ShareAnimatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShareAnimat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68F281F51DE6852D00B435BC /* Build configuration list for PBXProject "ShareAnimat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F282201DE6852D00B435BC /* Debug */,
+				68F282211DE6852D00B435BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F282221DE6852D00B435BC /* Build configuration list for PBXNativeTarget "ShareAnimat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F282231DE6852D00B435BC /* Debug */,
+				68F282241DE6852D00B435BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68F282251DE6852D00B435BC /* Build configuration list for PBXNativeTarget "ShareAnimatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F282261DE6852D00B435BC /* Debug */,
+				68F282271DE6852D00B435BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68F282281DE6852D00B435BC /* Build configuration list for PBXNativeTarget "ShareAnimatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F282291DE6852D00B435BC /* Debug */,
+				68F2822A1DE6852D00B435BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68F281F21DE6852D00B435BC /* Project object */;
+}
