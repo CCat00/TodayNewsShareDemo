@@ -127,7 +127,7 @@ class HWShareView: UIView {
         
         self.alpha = 0
         
-        UIView.animate(withDuration: 0.3, animations: {
+        UIView.animate(withDuration: 0.2, animations: {
             
             self.alpha = 1
             self.frame.origin.y = CGFloat.screenHeight - selfHeight
@@ -143,20 +143,6 @@ class HWShareView: UIView {
     }
 }
 
-extension UIView {
-    class func loadViewFromXib() -> UIView {
-        let className = String(describing: self)
-        let view = Bundle.main.loadNibNamed(className, owner: nil, options: nil)?.last as! UIView
-        return view
-    }
-    
-//    func loadNib() -> UIView {
-//        let bundel = Bundle(for: type(of: self))
-//        let nibName =  type(of: self).description().components(separatedBy: ".").last!
-//        let nib = UINib(nibName: nibName, bundle: bundel)
-//        let v  = nib.instantiate(withOwner: self, options: nil).last as! UIView
-//        return v
-//    }
-}
+
 
 

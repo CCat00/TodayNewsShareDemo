@@ -102,14 +102,8 @@ extension HWShareButton {
                     
                 }, completion: { (_) in
                     
-                    
-                    
-                })
-                
-                
+                })  
             })
-            
-
         })
     }
 }

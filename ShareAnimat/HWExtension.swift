@@ -46,3 +46,11 @@ extension UIView {
         }
     }
 }
+
+extension UIView {
+    class func loadViewFromXib() -> UIView {
+        let className = String(describing: self)
+        let view = Bundle.main.loadNibNamed(className, owner: nil, options: nil)?.last as! UIView
+        return view
+    }
+}
