@@ -14,6 +14,10 @@
 		68F282081DE6852D00B435BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F282061DE6852D00B435BC /* LaunchScreen.storyboard */; };
 		68F282131DE6852D00B435BC /* ShareAnimatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F282121DE6852D00B435BC /* ShareAnimatTests.swift */; };
 		68F2821E1DE6852D00B435BC /* ShareAnimatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F2821D1DE6852D00B435BC /* ShareAnimatUITests.swift */; };
+		68F2822C1DE68DE300B435BC /* HWShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F2822B1DE68DE300B435BC /* HWShareView.swift */; };
+		68F2822E1DE6948400B435BC /* HWShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F2822D1DE6948400B435BC /* HWShareButton.swift */; };
+		68F282301DE6950900B435BC /* HWExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F2822F1DE6950900B435BC /* HWExtension.swift */; };
+		68F282321DE6B90900B435BC /* HWShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68F282311DE6B90900B435BC /* HWShareView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		68F282191DE6852D00B435BC /* ShareAnimatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareAnimatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F2821D1DE6852D00B435BC /* ShareAnimatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAnimatUITests.swift; sourceTree = "<group>"; };
 		68F2821F1DE6852D00B435BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F2822B1DE68DE300B435BC /* HWShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWShareView.swift; sourceTree = "<group>"; };
+		68F2822D1DE6948400B435BC /* HWShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWShareButton.swift; sourceTree = "<group>"; };
+		68F2822F1DE6950900B435BC /* HWExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWExtension.swift; sourceTree = "<group>"; };
+		68F282311DE6B90900B435BC /* HWShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWShareView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 		68F281FC1DE6852D00B435BC /* ShareAnimat */ = {
 			isa = PBXGroup;
 			children = (
+				68F2822F1DE6950900B435BC /* HWExtension.swift */,
+				68F2822D1DE6948400B435BC /* HWShareButton.swift */,
+				68F2822B1DE68DE300B435BC /* HWShareView.swift */,
+				68F282311DE6B90900B435BC /* HWShareView.xib */,
 				68F281FD1DE6852D00B435BC /* AppDelegate.swift */,
 				68F281FF1DE6852D00B435BC /* ViewController.swift */,
 				68F282011DE6852D00B435BC /* Main.storyboard */,
@@ -236,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68F282081DE6852D00B435BC /* LaunchScreen.storyboard in Resources */,
+				68F282321DE6B90900B435BC /* HWShareView.xib in Resources */,
 				68F282051DE6852D00B435BC /* Assets.xcassets in Resources */,
 				68F282031DE6852D00B435BC /* Main.storyboard in Resources */,
 			);
@@ -262,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F2822E1DE6948400B435BC /* HWShareButton.swift in Sources */,
+				68F2822C1DE68DE300B435BC /* HWShareView.swift in Sources */,
 				68F282001DE6852D00B435BC /* ViewController.swift in Sources */,
+				68F282301DE6950900B435BC /* HWExtension.swift in Sources */,
 				68F281FE1DE6852D00B435BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 28J88G3NGL;
 				INFOPLIST_FILE = ShareAnimat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShouYueTechnology.ShareAnimat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 28J88G3NGL;
 				INFOPLIST_FILE = ShareAnimat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShouYueTechnology.ShareAnimat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +532,7 @@
 				68F282241DE6852D00B435BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68F282251DE6852D00B435BC /* Build configuration list for PBXNativeTarget "ShareAnimatTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +541,7 @@
 				68F282271DE6852D00B435BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68F282281DE6852D00B435BC /* Build configuration list for PBXNativeTarget "ShareAnimatUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +550,7 @@
 				68F2822A1DE6852D00B435BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
