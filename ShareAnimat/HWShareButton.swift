@@ -78,6 +78,15 @@ extension HWShareButton {
         //0 初始状态 下
         self.transform = top1
         self.alpha = 0.3
+
+        /// 系统自带的弹簧效果
+        /// usingSpringWithDamping 0~1 数值越小「弹簧」的振动效果越明显
+        /// initialSpringVelocity 初始的速度，数值越大一开始移动越快
+//        UIView.animate(withDuration: 0.8, delay: delay, usingSpringWithDamping: 0.7, initialSpringVelocity: 10, options:.curveEaseOut , animations: {
+//            self.transform = top2
+//            self.alpha = 1
+//        }, completion: nil)
+//        return
         
         //1 上
         UIView.animate(withDuration: 0.2, delay: delay, options: .curveEaseOut, animations: {

@@ -67,7 +67,7 @@ class HWShareView: UIView {
         
         let btnW: CGFloat = 76
         let btnH: CGFloat = 90
-        let btnY: CGFloat = 23
+        let btnY: CGFloat = scrollView == topScrollView ? 23 : 15
         let margin: CGFloat = 18
         var btnX: CGFloat = 0
         
