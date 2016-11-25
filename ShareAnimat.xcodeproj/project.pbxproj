@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6868FBE41DE7D21800A4909C /* DemoGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6868FBE31DE7D21800A4909C /* DemoGif.gif */; };
+		6868FBE81DE7D2E700A4909C /* DemoGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6868FBE71DE7D2E700A4909C /* DemoGif.gif */; };
 		68F281FE1DE6852D00B435BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F281FD1DE6852D00B435BC /* AppDelegate.swift */; };
 		68F282001DE6852D00B435BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F281FF1DE6852D00B435BC /* ViewController.swift */; };
 		68F282031DE6852D00B435BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F282011DE6852D00B435BC /* Main.storyboard */; };
@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6868FBE31DE7D21800A4909C /* DemoGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = DemoGif.gif; path = ../../../Desktop/DemoGif.gif; sourceTree = "<group>"; };
+		6868FBE71DE7D2E700A4909C /* DemoGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DemoGif.gif; sourceTree = "<group>"; };
 		68F281FA1DE6852D00B435BC /* ShareAnimat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareAnimat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F281FD1DE6852D00B435BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68F281FF1DE6852D00B435BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 		68F281FC1DE6852D00B435BC /* ShareAnimat */ = {
 			isa = PBXGroup;
 			children = (
-				6868FBE31DE7D21800A4909C /* DemoGif.gif */,
 				68F2822F1DE6950900B435BC /* HWExtension.swift */,
+				6868FBE71DE7D2E700A4909C /* DemoGif.gif */,
 				68F2822D1DE6948400B435BC /* HWShareButton.swift */,
 				68F2822B1DE68DE300B435BC /* HWShareView.swift */,
 				68F282311DE6B90900B435BC /* HWShareView.xib */,
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68F282081DE6852D00B435BC /* LaunchScreen.storyboard in Resources */,
-				6868FBE41DE7D21800A4909C /* DemoGif.gif in Resources */,
+				6868FBE81DE7D2E700A4909C /* DemoGif.gif in Resources */,
 				68F282321DE6B90900B435BC /* HWShareView.xib in Resources */,
 				68F282051DE6852D00B435BC /* Assets.xcassets in Resources */,
 				68F282031DE6852D00B435BC /* Main.storyboard in Resources */,
